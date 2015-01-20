@@ -39,6 +39,7 @@ public class WorkWithAnimals {
 		
 		Giraffe giraffe = new Giraffe();
 		giraffe.setName("Frank");
+		
 		System.out.println(giraffe.getName());
 	}
 	
