@@ -4,7 +4,7 @@ public class EnemyShipFactory {
 	
 	public EnemyShip makeEnemyShip(String newShipType) {
 		
-		if (newShipType.equals("U")) {
+		if (newShipType == "U") {
 			
 			return new UFOEnemyShip();
 			
